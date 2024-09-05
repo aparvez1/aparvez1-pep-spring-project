@@ -30,7 +30,7 @@ import com.example.service.MessageService;
 @RestController
 public class SocialMediaController {
 
-    private AccountService accountService;
+    private AccountService accountService; 
     private MessageService messageService;
 
     public SocialMediaController(AccountService accountService, MessageService messageService) {
